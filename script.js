@@ -17,3 +17,22 @@ window.addEventListener('click', e => {
     modal.style.display = 'none';
   }
 });
+
+document.addEventListener("DOMContentLoaded", function() {
+  const aboutBtn = document.getElementById("about-btn");
+  const projectsBtn = document.getElementById("projects-btn");
+  const aboutText = document.getElementById("about-text");
+  const projectsText = document.getElementById("projects-text");
+
+  // Mostrar texto "About" e esconder "Projects"
+  aboutBtn.addEventListener("click", function() {
+      aboutText.style.display = "block";
+      projectsText.style.display = "none";
+  });
+
+  // Mostrar texto "Projects" e esconder "About"
+  projectsBtn.addEventListener("click", function() {
+      projectsText.style.display = "block";
+      aboutText.style.display = "none";
+  });
+});

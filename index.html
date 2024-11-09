@@ -13,20 +13,15 @@
         <div class="container"> 
             <section class="menu-container">
                 <div class="menu-container-content">
-                    <button>
-                        <span class="transition"></span>
-                        <span class="gradient"></span>
-                        <span class="label">Home</span>
-                    </button>
-                    <button>
+                    <button id="about-btn">
                         <span class="transition"></span>
                         <span class="gradient"></span>
                         <span class="label">About</span>
                     </button>
-                    <button>
+                    <button id="projects-btn">
                         <span class="transition"></span>
                         <span class="gradient"></span>
-                        <span class="label">Button</span>
+                        <span class="label">Projects</span>
                     </button>
                 </div>
             </section>
@@ -67,7 +62,7 @@
                             </a>
                         </div>
                         <div class="img-links-container">
-                            <img class="img-links" src="./img/book.png" alt="">                                
+                            <img class="img-links" src="./img/book.png" alt="">                                 
                             <a 
                                 href="https://drive.google.com/file/d/1TsNkf-tKE3BR1Rzj_rcXhIp96YeL5YoE/view?usp=share_link" 
                                 class="links" 
@@ -79,16 +74,21 @@
                         </div>
                     </div>
                 </div>
-                <div class="text-container-span">
-                    <div>
-                        <p>
-                            It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. 
-                            The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, 
-                            content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as 
-                            their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have
-                             evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
-                        </p>
-                    </div>
+                <div id="about-text" class="text-container-span" style="display: none;">
+                    <p>
+                        Hey there! I'm Gabriel Farinela, I'm 24, and I'm from Farroupilha, RS. I recently graduated from IFRS - Campus Farroupilha, and, let me tell you, these four years were intense and showed me that programming is truly what I want to do with my life. 
+                        The first time I sat down to code, it was that lightbulb moment I needed, you know? That feeling of "this is it!" Since then, I've been constantly looking to learn new things, diving into projects, and finding ways to grow in the field. I'm a pretty upbeat guy, love a lighthearted environment and cracking some jokes to keep things relaxed, but when it's time to work, focus and organization come first.
+                    </p>
+                </div>
+                <div id="projects-text" class="text-container-span" style="display: none;">
+                    <p>
+                        Here are some of my recent projects. I’ve worked on a variety of applications, from full-stack web development to data science projects. My passion lies in building meaningful and useful software. Below are a few examples:
+                        <ul>
+                            <li><a class="title-text" href="https://github.com/GabrielFarinela/app-top-activity">Project 1:</a> A web application that helps users manage their events.</li>
+                            <li><a class="title-text" href="https://github.com/GabrielFarinela/java-projects">Project 2:</a> java applications, from stock management to a bug tracker and finally a tic-tac-toe game.</li>
+                            <li><a class="title-text" href="https://github.com/GabrielFarinela/anguar-app">Project 3:</a> An angular system to manage users and their tasks</li>
+                        </ul>
+                    </p>
                 </div>
             </section>
         </div>
